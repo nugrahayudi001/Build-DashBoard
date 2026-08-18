@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinDash - Dashboard Keuangan Terintegrasi</title>
+    <meta name="description" content="Gantikan spreadsheet Anda dengan satu dashboard keuangan akuntansi yang terintegrasi. Dilengkapi dengan laporan lengkap, manajemen aset, dan AI.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">FinDash.</div>
+            <ul class="nav-links">
+                <li><a href="#features">Fitur</a></li>
+                <li><a href="#reports">Laporan</a></li>
+                <li><a href="#ai">Analisis AI</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="btn-secondary">Masuk</a>
+                <a href="#" class="btn-primary">Coba Gratis</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge">✨ Era Baru Pembukuan Bisnis</div>
+                <h1>Tinggalkan Spreadsheet, Beralih ke <span>Satu Dashboard Terintegrasi</span></h1>
+                <p>Catat transaksi, kelola buku besar, pantau arus kas, hingga hasilkan laporan keuangan lengkap dan slip gaji dalam satu platform cerdas.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary large">Mulai Sekarang</a>
+                    <a href="#demo" class="btn-glass large">Lihat Demo</a>
+                </div>
+            </div>
+            <div class="hero-mockup">
+                <div class="glass-card mockup-card">
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="mockup-title">Dashboard Keuangan - PT Maju Bersama</div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="mockup-sidebar">
+                            <div class="nav-item active"></div>
+                            <div class="nav-item"></div>
+                            <div class="nav-item"></div>
+                            <div class="nav-item"></div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-stats">
+                                <div class="stat-box">
+                                    <div class="stat-title">Saldo Kas</div>
+                                    <div class="stat-value">Rp 124.500.000</div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-title">Piutang Beredar</div>
+                                    <div class="stat-value">Rp 45.200.000</div>
+                                </div>
+                                <div class="stat-box highlight">
+                                    <div class="stat-title">Laba Bersih</div>
+                                    <div class="stat-value">Rp 82.100.000</div>
+                                </div>
+                            </div>
+                            <div class="mockup-chart">
+                                <div class="chart-bar" style="height: 60%"></div>
+                                <div class="chart-bar" style="height: 80%"></div>
+                                <div class="chart-bar" style="height: 40%"></div>
+                                <div class="chart-bar" style="height: 100%"></div>
+                                <div class="chart-bar" style="height: 70%"></div>
+                                <div class="chart-bar" style="height: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Floating elements to make it dynamic -->
+                <div class="floating-badge badge-1">
+                    <div class="icon">📈</div>
+                    <div>
+                        <strong>Proyeksi Kas</strong>
+                        <span>Akurat 98%</span>
+                    </div>
+                </div>
+                <div class="floating-badge badge-2">
+                    <div class="icon">🤖</div>
+                    <div>
+                        <strong>AI Deteksi</strong>
+                        <span>0 Anomali</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fitur Inti Pembukuan Modern</h2>
+                <p>Semua yang Anda butuhkan untuk mengelola keuangan perusahaan, terangkum dalam satu aplikasi yang mudah digunakan.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3>Multi-Perusahaan</h3>
+                    <p>Kelola beberapa perusahaan sekaligus dalam satu akun. Pindah antar dashboard perusahaan dengan mudah tanpa login berulang.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Pencatatan Cerdas</h3>
+                    <p>Sistem jurnal debet dan kredit yang terhubung dengan kode bantu piutang dan buku besar untuk pembukuan yang selalu seimbang.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Aset & Persediaan</h3>
+                    <p>Pantau nilai aset tetap, penyusutan otomatis, dan rekap barang keluar-masuk secara real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Penggajian Karyawan</h3>
+                    <p>Kelola absensi karyawan, hitung rekap gaji otomatis, dan cetak slip gaji profesional dengan satu klik.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Komparasi Kinerja</h3>
+                    <p>Bandingkan performa keuangan antar bulan, tahun, atau antar akun spesifik secara horizontal maupun vertikal.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖨️</div>
+                    <h3>Siap Cetak</h3>
+                    <p>Unduh laporan keuangan berformat PDF yang rapi, profesional, dan langsung siap dipresentasikan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reports & Analytics -->
+    <section id="reports" class="reports">
+        <div class="container reports-container">
+            <div class="reports-content">
+                <h2>Laporan Keuangan Instan & Lengkap</h2>
+                <p>Tidak perlu lagi menyusun rumus Excel rumit setiap akhir bulan. Dapatkan laporan keuangan standar akuntansi hanya dalam hitungan detik.</p>
+                <ul class="reports-list">
+                    <li>
+                        <strong>Neraca & Laba Rugi 12 Bulan</strong>
+                        <p>Pantau posisi aset, kewajiban, dan performa profitabilitas secara komprehensif.</p>
+                    </li>
+                    <li>
+                        <strong>Arus Kas & Proyeksi</strong>
+                        <p>Lacak uang masuk dan keluar harian, serta hitung estimasi operasional untuk proyeksi kas masa depan.</p>
+                    </li>
+                    <li>
+                        <strong>Neraca Lajur & Ekuitas</strong>
+                        <p>Pastikan keseimbangan pembukuan dan pantau perubahan modal perusahaan Anda.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="reports-visual">
+                <div class="glass-card visual-card">
+                    <div class="visual-header">Laba Rugi Bulanan</div>
+                    <div class="donut-chart">
+                        <div class="donut-center"></div>
+                        <div class="donut-label">
+                            <span class="label-title">Total Pendapatan</span>
+                            <span class="label-value">Rp 850M</span>
+                        </div>
+                    </div>
+                    <div class="legend">
+                        <div class="legend-item"><span class="dot dot-1"></span> Pendapatan Usaha</div>
+                        <div class="legend-item"><span class="dot dot-2"></span> HPP</div>
+                        <div class="legend-item"><span class="dot dot-3"></span> Beban Operasional</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Section -->
+    <section id="ai" class="ai-section">
+        <div class="glow-orb orb-3"></div>
+        <div class="container">
+            <div class="ai-box glass-card">
+                <div class="ai-content">
+                    <div class="badge ai-badge">✨ AI-Powered Analytics</div>
+                    <h2>Asisten Finansial Berbasis AI</h2>
+                    <p>FinDash tidak hanya mencatat, tetapi juga menganalisis dan memberi wawasan berharga untuk keputusan bisnis Anda.</p>
+                    
+                    <div class="ai-features">
+                        <div class="ai-feature">
+                            <div class="ai-icon">📝</div>
+                            <div>
+                                <h4>AI Financial Summary</h4>
+                                <p>Narasi otomatis yang merangkum kinerja keuangan dan menyorot perubahan signifikan tanpa perlu Anda menganalisa manual.</p>
+                            </div>
+                        </div>
+                        <div class="ai-feature">
+                            <div class="ai-icon">🔮</div>
+                            <div>
+                                <h4>Cash Flow Forecasting</h4>
+                                <p>Prediksi arus kas masa depan dengan cerdas berdasarkan data historis transaksi dan pola pengeluaran bulanan.</p>
+                            </div>
+                        </div>
+                        <div class="ai-feature">
+                            <div class="ai-icon">⚠️</div>
+                            <div>
+                                <h4>Anomaly Detection</h4>
+                                <p>Sistem AI otomatis mendeteksi transaksi janggal, salah input nominal, atau ketidakwajaran akun dan memberi Anda peringatan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-visual">
+                    <div class="ai-alert-card">
+                        <div class="alert-header">
+                            <span class="alert-icon">⚠️</span>
+                            <span>Deteksi Anomali</span>
+                        </div>
+                        <div class="alert-body">
+                            <p>Ditemukan pengeluaran "Beban Marketing" sebesar <strong>Rp 15.000.000</strong> pada 12 Agustus. Nominal ini 300% lebih tinggi dari rata-rata bulanan.</p>
+                            <button class="btn-outline-small">Tinjau Transaksi</button>
+                        </div>
+                    </div>
+                    <div class="ai-summary-card">
+                        <div class="summary-header">✨ Ringkasan AI Bulan Ini</div>
+                        <p>"Pendapatan meningkat 15% dibanding bulan lalu didorong oleh penjualan produk utama, namun beban operasional juga naik 5%..."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <h2>Siap Beralih ke Pembukuan Modern?</h2>
+            <p>Bergabunglah dengan pengusaha lain yang telah beralih dari kerumitan spreadsheet ke kemudahan FinDash.</p>
+            <a href="#" class="btn-primary large">Mulai Uji Coba Gratis</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">FinDash.</div>
+                <p>Solusi dashboard keuangan akuntansi terintegrasi untuk bisnis masa depan.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Produk</h4>
+                    <a href="#">Fitur</a>
+                    <a href="#">Harga</a>
+                    <a href="#">Keamanan</a>
+                </div>
+                <div class="link-group">
+                    <h4>Perusahaan</h4>
+                    <a href="#">Tentang Kami</a>
+                    <a href="#">Karir</a>
+                    <a href="#">Kontak</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 FinDash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
